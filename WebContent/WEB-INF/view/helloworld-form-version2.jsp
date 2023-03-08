@@ -4,13 +4,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Processing the form data</title>
+<title>Form Version 2</title>
 </head>
 <body>
-	Hello from world of Spring!!
-	<br> <br>
-	Welcome on board ${param.studentName}
-	<br> <br>
-	The message : ${message}
+	<form action="processFormV3" method="GET">
+		<input type="text" name="studentName" placeholder="Enter your name"/>
+		<input type="submit" />
+	</form>
 </body>
 </html>
